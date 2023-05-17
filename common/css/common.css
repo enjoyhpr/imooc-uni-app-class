@@ -1,0 +1,59 @@
+/* #ifndef APP-PLUS-NVUE */
+view,
+scroll-view,
+swiper,
+swiper-item,
+cover-view,
+vocer-image,
+icon,
+text,
+rich-text,
+progress,
+button,
+checkbox,
+form,
+input,
+label,
+radio,
+camera,
+image,
+video{
+	/* 
+	 对元素指定宽度和高度包括了 padding 和 border
+	 通过从已设定的宽度和高度分别减去边框和内边距才能得到内容的宽度和高度
+	 还有个就是 view 之间不会有间隔
+	 */
+	box-sizing: border-box;
+}
+/* #endif */
+
+/* 布局 */
+.center{
+	/* #ifndef APP-PLUS-NVUE */
+	display: flex;
+	/* #endif */
+	align-items: center;
+	justify-content: center;
+}
+
+.row{
+	/* #ifndef APP-PLUS-NVUE */
+	display: flex;
+	/* #endif */
+	flex-direction: row;
+}
+
+.column{
+	/* #ifndef APP-PLUS-NVUE */
+	display: flex;
+	/* #endif */
+	flex-direction: column;
+}
+
+.title{
+	
+}
+
+.space-between{
+	justify-content: space-between;
+}
